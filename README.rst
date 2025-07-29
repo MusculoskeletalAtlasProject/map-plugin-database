@@ -16,7 +16,7 @@ The `MAP Plugin Database`_ is a centralised repository containing metadata about
 Accessing Plugins
 -----------------
 
-Users can access the *Plugin Finder* tool within the MAP Client application via the *Tools* menu. This tool allows users to browse and install available plugins from the database.
+Users can access the MAP Client application's *Plugin Finder* tool via the *Tools* menu. This tool allows users to browse and install available plugins from the database.
 
 Submitting a Plugin
 -------------------
@@ -35,4 +35,4 @@ Maintaining the Database
 ------------------------
 
 Editing database entries and triggering automated updates are **restricted** to repository maintainers.
-
+As a result, when a user submits a new plugin location via a GitHub issue, a repository maintainer **must** be the one to close the GitHub issue; this ensures the update process has the required permission to update the database.
